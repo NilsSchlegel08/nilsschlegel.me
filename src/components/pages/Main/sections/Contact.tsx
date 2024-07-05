@@ -7,7 +7,7 @@ function Contact() {
                 <div className="flex items-center space-x-4 flex-row">
                     <a className="text-primary underline hover:text-accent transition-all hover:opacity-90" href="mailto:contact@nilsschlegel.me">E-Mail</a>
                     <div className="w-1 h-1 bg-primary rounded-full"></div>
-                    <a className="text-primary underline hover:text-accent transition-all hover:opacity-90" href="tel:0767200209">Phone</a>
+                    <a className="text-primary underline hover:text-accent transition-all hover:opacity-90" href="tel:+41767200209">Phone</a>
                     <div className="w-1 h-1 bg-primary rounded-full"></div>
                     <a className="text-primary hover:text-accent transition-all hover:opacity-90">Socials</a>
                 </div>
