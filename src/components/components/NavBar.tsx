@@ -4,6 +4,11 @@ let currentString: string = "home";
 
 function NavBar() {
     const fadeTo = (sectionString: string) => {
+
+        if (sectionString === currentString) {
+            return
+        }
+
         const currentSection = document.getElementById(currentString);
         const newSection = document.getElementById(sectionString);
 
