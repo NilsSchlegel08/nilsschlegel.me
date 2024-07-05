@@ -30,7 +30,6 @@ function performTransform() {
                 fadein("mainSection", 1000);
                 fadein("navbar", 500)
                 document.getElementById("navbar")?.classList.toggle("hidden")
-                document.getElementById("navbar")?.classList.toggle("fixed")
             }, 1000);
         }, 1000); 
     }, 1000);
